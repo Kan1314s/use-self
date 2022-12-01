@@ -16,4 +16,3 @@ http:
 script-providers:
   Airplus:
     url: https://raw.githubusercontent.com/Kan1314s/use-self/main/Stash/Scrips/Crack/Airplus.js
-    interval: 86400

@@ -1,0 +1,18 @@
+name: Happy:Day
+desc: 解锁订阅
+
+http:
+  script:
+    - match: https://api.revenuecat.com/v1/(receipts|subscribers)/*
+      name: dsr.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+  mitm:
+    - "api.revenuecat.com"
+
+script-providers:
+  dsr.js:
+    url: https://raw.githubusercontent.com/Kan1314s/use-self/main/Stash/Scrips/Crack/happyday.js
+    interval: 86400

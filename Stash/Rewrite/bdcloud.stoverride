@@ -1,5 +1,5 @@
 name: 百度云盘
-desc: 解锁倍速@ddgksf2013
+desc: 解锁倍速@Nobyda
 
 http:
   script:
@@ -13,5 +13,4 @@ http:
 
 script-providers:
   bdcloud.js:
-    url: https://raw.githubusercontent.com/Kan1314s/use-self/main/Stash/Scrips/Crack/bdcloud.js
-    interval: 86400
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js

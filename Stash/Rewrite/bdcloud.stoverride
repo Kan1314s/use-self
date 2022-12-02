@@ -3,7 +3,7 @@ desc: 解锁倍速@Nobyda
 
 http:
   script:
-    - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
+    - match: https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
       name: bdcloud.js
       type: response
       require-body: true

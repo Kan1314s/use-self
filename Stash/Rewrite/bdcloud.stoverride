@@ -1,0 +1,18 @@
+name: 
+desc: 
+http:
+  script:
+    # > 百度云 by ddgksf2013
+    - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
+      name: bdcloud.js
+      type: response
+      require-body: true
+      timeout: 30
+      max-size: 0
+  mitm:
+    - "pan.baidu.com"
+
+script-providers:
+  bdcloud.js:
+    url: https://github.com/ddgksf2013/Scripts/raw/master/bdcloud.js
+    interval: 86400

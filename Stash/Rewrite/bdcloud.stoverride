@@ -3,7 +3,6 @@ desc: 解锁倍速@ddgksf2013
 
 http:
   script:
-    # > 百度云 by ddgksf2013
     - match: https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user
       name: bdcloud.js
       type: response
@@ -11,7 +10,7 @@ http:
       timeout: 30
       max-size: 0
   mitm:
-    - "pan.baidu.com"
+    - 'pan.baidu.com'
 
 script-providers:
   bdcloud.js:
